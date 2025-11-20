@@ -52,10 +52,10 @@
 
         nav {
             bindings = <
-&trans  &kp N1  &kp N2    &kp N3   &kp N4   &kp N5                     &kp N6    &kp N7        &kp N8         &kp N9       &kp N0         &trans
-&trans  &trans  &trans    &trans   &trans   &kp RET                    &trans    &kp LEFT      &kp DOWN       &kp UP       &kp RIGHT      &trans
-&trans  &trans  &kp HOME  &kp INS  &kp END  &kp DEL                    &kp CLCK  &kp LC(LEFT)  &kp PAGE_DOWN  &kp PAGE_UP  &kp LC(RIGHT)  &trans
-                &trans    &trans   &trans   &trans   &trans    &trans  &mo 3     &trans        &trans         &trans
+&none  &kp N1  &kp N2    &kp N3   &kp N4   &kp N5                   &kp N6    &kp N7        &kp N8         &kp N9       &kp N0         &none
+&none  &none   &none     &none    &none    &kp RET                  &none     &kp LEFT      &kp DOWN       &kp UP       &kp RIGHT      &none
+&none  &none   &kp HOME  &kp INS  &kp END  &kp DEL                  &kp CLCK  &kp LC(LEFT)  &kp PAGE_DOWN  &kp PAGE_UP  &kp LC(RIGHT)  &none
+               &none     &none    &none    &none    &none    &none  &mo 3     &none         &none          &none
             >;
 
             display-name = "Navigation";
@@ -63,10 +63,10 @@
 
         sym {
             bindings = <
-&trans  &trans    &kp LT    &kp EQUAL  &kp GT    &kp GRAVE                      &kp CARET  &kp DQT   &kp UNDER  &kp SQT   &trans    &trans
-&trans  &kp BSLH  &kp LPAR  &kp MINUS  &kp RPAR  &kp PLUS                       &kp PRCNT  &kp LBRC  &kp SEMI   &kp RBRC  &kp EXCL  &kp QUESTION
-&trans  &trans    &kp STAR  &kp COLON  &kp FSLH  &kp DLLR                       &kp AT     &kp PIPE  &kp TILDE  &kp AMPS  &trans    &trans
-                  &trans    &trans     &trans    &mo 3      &kp HASH    &trans  &trans     &trans    &trans     &trans
+&none  &none     &kp LT    &kp EQUAL  &kp GT    &kp GRAVE                     &kp CARET  &kp DQT   &kp UNDER  &kp SQT   &none     &none
+&none  &kp BSLH  &kp LPAR  &kp MINUS  &kp RPAR  &kp PLUS                      &kp PRCNT  &kp LBRC  &kp SEMI   &kp RBRC  &kp EXCL  &kp QUESTION
+&none  &none     &kp STAR  &kp COLON  &kp FSLH  &kp DLLR                      &kp AT     &kp PIPE  &kp TILDE  &kp AMPS  &none     &none
+                 &none     &none      &none     &mo 3      &kp HASH    &none  &none      &none     &none      &none
             >;
 
             display-name = "Symbols";
@@ -85,10 +85,10 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &mo 5   &mkp MB3  &mkp MB2  &mkp MB1  &mo 6                     &mo 6   &mkp MB1  &mkp MB2  &mkp MB3  &mo 5   &trans
-&trans  &trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans  &trans
-                &trans    &trans    &trans    &trans  &trans    &trans  &trans  &trans    &trans    &trans
+&none  &none  &none     &none     &none     &none                  &none  &none     &none     &none     &none  &none
+&none  &mo 5  &mkp MB3  &mkp MB2  &mkp MB1  &mo 6                  &mo 6  &mkp MB1  &mkp MB2  &mkp MB3  &mo 5  &none
+&none  &none  &none     &none     &none     &none                  &none  &none     &none     &none     &none  &none
+              &none     &none     &none     &none  &none    &none  &none  &none     &none     &none
             >;
 
             display-name = "Mouse";
@@ -96,10 +96,10 @@
 
         scroll {
             bindings = <
-&trans  &trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &mkp MB3  &mkp MB2  &mkp MB1  &trans                    &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans  &trans
-&trans  &trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans  &trans
-                &trans    &trans    &trans    &trans  &trans    &trans  &trans  &trans    &trans    &trans
+&none  &none  &none     &none     &none     &none                  &none  &none     &none     &none     &none  &none
+&none  &none  &mkp MB3  &mkp MB2  &mkp MB1  &none                  &none  &mkp MB1  &mkp MB2  &mkp MB3  &none  &none
+&none  &none  &none     &none     &none     &none                  &none  &none     &none     &none     &none  &none
+              &none     &none     &none     &none  &none    &none  &none  &none     &none     &none
             >;
 
             display-name = "Scroll";
@@ -107,10 +107,10 @@
 
         sniper {
             bindings = <
-&trans  &trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &mkp MB3  &mkp MB2  &mkp MB1  &trans                    &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans  &trans
-&trans  &trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans  &trans
-                &trans    &trans    &trans    &trans  &trans    &trans  &trans  &trans    &trans    &trans
+&none  &none  &none     &none     &none     &none                  &none  &none     &none     &none     &none  &none
+&none  &none  &mkp MB3  &mkp MB2  &mkp MB1  &none                  &none  &mkp MB1  &mkp MB2  &mkp MB3  &none  &none
+&none  &none  &none     &none     &none     &none                  &none  &none     &none     &none     &none  &none
+              &none     &none     &none     &none  &none    &none  &none  &none     &none     &none
             >;
 
             display-name = "Sniper";
@@ -123,8 +123,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
-
-            display-name = "User0";
         };
 
         User1 {
